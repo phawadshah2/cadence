@@ -1,0 +1,17 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    # Cadence is an app, not a published package. Doc comments on every
+    # public member would be noise, not documentation.
+    public_member_api_docs: false
