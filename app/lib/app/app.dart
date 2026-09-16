@@ -5,6 +5,7 @@ class CadenceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('dev code to break the ci workflow');
     return const MaterialApp(
       title: 'Cadence',
       home: Scaffold(body: Center(child: Text('Cadence'))),
