@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class EmptyState extends StatelessWidget {
   const new({
-    super.key,
     required this.icon,
     required this.title,
     required this.message,
+    super.key,
   });
 
   final IconData icon;
